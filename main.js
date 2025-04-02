@@ -16,9 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
 				// GET SPICY
 				const selectedSpice = document.getElementById('spicy').value
 
+				// GET TYPE
+				const selectedType = document.getElementById('type').value.toLowerCase()
+
 				// FILTER MEALS BASED OFF CUISINE SELECTION 
 				const filteredMeals = data.filter(meal => 
-					meal.Cuisine.toLowerCase() === selectedCuisine && meal.Spicy === selectedSpice
+					meal.Cuisine.toLowerCase() === selectedCuisine && meal.Spicy === selectedSpice && meal.Type.toLowerCase() === selectedType
 				)
 
 
