@@ -1,6 +1,6 @@
 [
   {
-    "Food": "Kimchi Stew",
+    "name": "Kimchi Stew",
     "Cuisine": "Korean",
     "Type": "Soup, Rice",
     "Spicy": "TRUE",
@@ -9,10 +9,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Hojokban, Tosokchon",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Soft Tofu Stew",
+    "name": "Soft Tofu Stew",
     "Cuisine": "Korean",
     "Type": "Soup, Rice",
     "Spicy": "TRUE",
@@ -21,10 +22,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "BCD Tofu House ($$), So Kong Dong ($)",
-    "Price": "$-$$"
+    "Price": "$-$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Black Bean Noodles",
+    "name": "Black Bean Noodles",
     "Cuisine": "Korean, Chinese",
     "Type": "Noodles",
     "Spicy": "FALSE",
@@ -33,10 +35,11 @@
     "Creamy": "FALSE",
     "Sweet": "TRUE",
     "Restaurants": "Jongro BBQ, Hao Noodle",
-    "Price": "$$-$$$"
+    "Price": "$$-$$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Ramen",
+    "name": "Ramen",
     "Cuisine": "Japanese",
     "Type": "Noodles",
     "Spicy": "TRUE",
@@ -45,10 +48,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Ippudo, TottoRamen",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.ichiranusa.com/"
   },
   {
-    "Food": "Soy Sauce Crab",
+    "name": "Soy Sauce Crab",
     "Cuisine": "Korean",
     "Type": "Seafood",
     "Spicy": "FALSE",
@@ -57,10 +61,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "The Jin ($$$), BBQ Olive Chicken ($)",
-    "Price": "$-$$$"
+    "Price": "$-$$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Tteokbokki",
+    "name": "Tteokbokki",
     "Cuisine": "Korean",
     "Type": "Street Food",
     "Spicy": "TRUE",
@@ -69,10 +74,11 @@
     "Creamy": "FALSE",
     "Sweet": "TRUE",
     "Restaurants": "YK Tteokbokki ($), Kong Sihk Tong ($)",
-    "Price": "$"
+    "Price": "$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Bibimbap",
+    "name": "Bibimbap",
     "Cuisine": "Korean",
     "Type": "Rice",
     "Spicy": "TRUE",
@@ -81,10 +87,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Woorijip ($), Atoboy ($$$$)",
-    "Price": "$-$$$$"
+    "Price": "$-$$$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Jjambbong",
+    "name": "Jjambbong",
     "Cuisine": "Korean, Chinese",
     "Type": "Noodles",
     "Spicy": "TRUE",
@@ -93,10 +100,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Hunan Slurp ($$), Spicy Village ($)",
-    "Price": "$-$$"
+    "Price": "$-$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Kalguksu",
+    "name": "Kalguksu",
     "Cuisine": "Korean",
     "Type": "Noodles",
     "Spicy": "FALSE",
@@ -105,10 +113,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Arirang ($), Her Name is Han ($$$)",
-    "Price": "$-$$$"
+    "Price": "$-$$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "KBBQ",
+    "name": "KBBQ",
     "Cuisine": "Korean",
     "Type": "Meat",
     "Spicy": "FALSE",
@@ -117,10 +126,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Kang Ho Dong Baekjeong ($$$), Samwon Garden ($$$$)",
-    "Price": "$$$-$$$$"
+    "Price": "$$$-$$$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Sullungtang",
+    "name": "Sullungtang",
     "Cuisine": "Korean",
     "Type": "Soup, Rice",
     "Spicy": "FALSE",
@@ -129,10 +139,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Gammeeok ($$)",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Bossam",
+    "name": "Bossam",
     "Cuisine": "Korean",
     "Type": "Meat",
     "Spicy": "FALSE",
@@ -141,10 +152,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Cho Dang Gol ($$)",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Naengmyun",
+    "name": "Naengmyun",
     "Cuisine": "Korean",
     "Type": "Noodles",
     "Spicy": "TRUE",
@@ -153,10 +165,11 @@
     "Creamy": "FALSE",
     "Sweet": "TRUE",
     "Restaurants": "The Kunjip ($$)",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Hamburger",
+    "name": "Hamburger",
     "Cuisine": "American",
     "Type": "Meat, Bread",
     "Spicy": "FALSE",
@@ -165,10 +178,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Shake Shack ($), J.G. Melon ($$)",
-    "Price": "$-$$"
+    "Price": "$-$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Mac n Cheese",
+    "name": "Mac n Cheese",
     "Cuisine": "American",
     "Type": "Noodles",
     "Spicy": "FALSE",
@@ -177,10 +191,11 @@
     "Creamy": "TRUE",
     "Sweet": "FALSE",
     "Restaurants": "S'MAC ($), Beecher's Handmade Cheese ($$)",
-    "Price": "$-$$"
+    "Price": "$-$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Wings",
+    "name": "Wings",
     "Cuisine": "American",
     "Type": "Meat",
     "Spicy": "TRUE",
@@ -189,10 +204,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Bar Goto ($$), Dan and John's Wings ($)",
-    "Price": "$-$$"
+    "Price": "$-$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Sandwich",
+    "name": "Sandwich",
     "Cuisine": "American",
     "Type": "Meat, Bread",
     "Spicy": "FALSE",
@@ -201,10 +217,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Katz's Delicatessen",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Dim Sum",
+    "name": "Dim Sum",
     "Cuisine": "Chinese",
     "Type": "Dumplings",
     "Spicy": "FALSE",
@@ -213,10 +230,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Gahm Mi Oak",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Mapo Tofu",
+    "name": "Mapo Tofu",
     "Cuisine": "Chinese",
     "Type": "Rice",
     "Spicy": "TRUE",
@@ -225,10 +243,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Nom Wah Tea Parlor",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Malatang",
+    "name": "Malatang",
     "Cuisine": "Chinese",
     "Type": "Soup",
     "Spicy": "TRUE",
@@ -237,10 +256,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Málà Project ($$)",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Hot Pot",
+    "name": "Hot Pot",
     "Cuisine": "Chinese",
     "Type": "Meat",
     "Spicy": "TRUE",
@@ -249,10 +269,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Haidilao ($$$), 99 Favor Taste ($$)",
-    "Price": "$$-$$$"
+    "Price": "$$-$$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Cumin Lamb Noodles",
+    "name": "Cumin Lamb Noodles",
     "Cuisine": "Chinese",
     "Type": "Noodles",
     "Spicy": "TRUE",
@@ -261,10 +282,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Xi'an Famous Foods ($)",
-    "Price": "$"
+    "Price": "$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Pasta",
+    "name": "Pasta",
     "Cuisine": "Italian",
     "Type": "Noodles",
     "Spicy": "FALSE",
@@ -273,10 +295,11 @@
     "Creamy": "TRUE",
     "Sweet": "FALSE",
     "Restaurants": "L’Artusi ($$$$), Rubirosa ($$)",
-    "Price": "$$-$$$$"
+    "Price": "$$-$$$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Pizza",
+    "name": "Pizza",
     "Cuisine": "Italian",
     "Type": "Bread",
     "Spicy": "FALSE",
@@ -285,10 +308,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Lucali ($$$), Prince Street Pizza ($)",
-    "Price": "$-$$$"
+    "Price": "$-$$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Udon",
+    "name": "Udon",
     "Cuisine": "Japanese",
     "Type": "Noodles",
     "Spicy": "FALSE",
@@ -297,10 +321,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Raku ($$)",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Karaage",
+    "name": "Karaage",
     "Cuisine": "Japanese",
     "Type": "Meat",
     "Spicy": "FALSE",
@@ -309,10 +334,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Torishin ($$$)",
-    "Price": "$$$"
+    "Price": "$$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Sushi",
+    "name": "Sushi",
     "Cuisine": "Japanese",
     "Type": "Seafood",
     "Spicy": "FALSE",
@@ -321,10 +347,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Sushi Nakazawa ($$$$), SUGARFISH ($$$)",
-    "Price": "$$$-$$$$"
+    "Price": "$$$-$$$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Soba",
+    "name": "Soba",
     "Cuisine": "Japanese",
     "Type": "Noodles",
     "Spicy": "FALSE",
@@ -333,10 +360,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Cocoron ($$)",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Katsu",
+    "name": "Katsu",
     "Cuisine": "Japanese",
     "Type": "Meat",
     "Spicy": "FALSE",
@@ -345,10 +373,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Katsu-Hama ($$)",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Omurice",
+    "name": "Omurice",
     "Cuisine": "Japanese",
     "Type": "Rice",
     "Spicy": "FALSE",
@@ -357,10 +386,11 @@
     "Creamy": "TRUE",
     "Sweet": "FALSE",
     "Restaurants": "Hi-Collar ($$)",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Curry",
+    "name": "Curry",
     "Cuisine": "Japanese",
     "Type": "Rice",
     "Spicy": "FALSE",
@@ -369,10 +399,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Go! Go! Curry! ($)",
-    "Price": "$"
+    "Price": "$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Kimchi Carbonara",
+    "name": "Kimchi Carbonara",
     "Cuisine": "Fusion",
     "Type": "Noodles",
     "Spicy": "FALSE",
@@ -381,10 +412,11 @@
     "Creamy": "TRUE",
     "Sweet": "FALSE",
     "Restaurants": "Mokbar ($$)",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Shabu Shabu",
+    "name": "Shabu Shabu",
     "Cuisine": "Korean",
     "Type": "Meat",
     "Spicy": "FALSE",
@@ -393,10 +425,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Shabu-Tatsu ($$)",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Burrito",
+    "name": "Burrito",
     "Cuisine": "Mexican",
     "Type": "Meat",
     "Spicy": "FALSE",
@@ -405,10 +438,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Dos Toros Taqueria ($), Chipotle Mexican Grill ($)",
-    "Price": "$"
+    "Price": "$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Tacos",
+    "name": "Tacos",
     "Cuisine": "Mexican",
     "Type": "Meat",
     "Spicy": "FALSE",
@@ -417,10 +451,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Los Tacos No. 1 ($), Tacombi ($$)",
-    "Price": "$-$$"
+    "Price": "$-$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Butter Chicken",
+    "name": "Butter Chicken",
     "Cuisine": "Indian",
     "Type": "Rice, Meat",
     "Spicy": "TRUE",
@@ -429,10 +464,11 @@
     "Creamy": "TRUE",
     "Sweet": "FALSE",
     "Restaurants": "Dhaba ($$)",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Chicken Tikka Masala",
+    "name": "Chicken Tikka Masala",
     "Cuisine": "Indian",
     "Type": "Rice, Meat",
     "Spicy": "TRUE",
@@ -441,10 +477,11 @@
     "Creamy": "TRUE",
     "Sweet": "FALSE",
     "Restaurants": "Bengal Tiger Indian Food ($$)",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Naan",
+    "name": "Naan",
     "Cuisine": "Indian",
     "Type": "Bread",
     "Spicy": "FALSE",
@@ -453,10 +490,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Tamarind Tribeca ($$$)",
-    "Price": "$$$"
+    "Price": "$$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Bagels",
+    "name": "Bagels",
     "Cuisine": "American",
     "Type": "Bread",
     "Spicy": "FALSE",
@@ -465,10 +503,11 @@
     "Creamy": "TRUE",
     "Sweet": "FALSE",
     "Restaurants": "Ess-a-Bagel ($), Russ & Daughters ($$)",
-    "Price": "$-$$"
+    "Price": "$-$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Fries",
+    "name": "Fries",
     "Cuisine": "American",
     "Type": "Street Food",
     "Spicy": "FALSE",
@@ -477,10 +516,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Pommes Frites ($)",
-    "Price": "$"
+    "Price": "$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Paella",
+    "name": "Paella",
     "Cuisine": "Spanish",
     "Type": "Rice",
     "Spicy": "FALSE",
@@ -489,10 +529,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Socarrat Paella Bar ($$)",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Tapas",
+    "name": "Tapas",
     "Cuisine": "Spanish",
     "Type": "Small Bites",
     "Spicy": "FALSE",
@@ -501,10 +542,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Boqueria ($$), Casa Mono ($$$)",
-    "Price": "$$-$$$"
+    "Price": "$$-$$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Ceviche",
+    "name": "Ceviche",
     "Cuisine": "Ecuadorian",
     "Type": "Seafood",
     "Spicy": "FALSE",
@@ -513,10 +555,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Mission Ceviche",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Empanadas",
+    "name": "Empanadas",
     "Cuisine": "Argentinian",
     "Type": "Bread",
     "Spicy": "FALSE",
@@ -525,10 +568,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Nuchas ($), La Nueva Bakery ($)",
-    "Price": "$"
+    "Price": "$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Chicken Sandwich",
+    "name": "Chicken Sandwich",
     "Cuisine": "American",
     "Type": "Bread, Meat",
     "Spicy": "FALSE",
@@ -537,10 +581,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Fuku",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Pad See Ew",
+    "name": "Pad See Ew",
     "Cuisine": "Thai",
     "Type": "Noodles",
     "Spicy": "TRUE",
@@ -549,10 +594,11 @@
     "Creamy": "FALSE",
     "Sweet": "TRUE",
     "Restaurants": "Pure Thai Cookhouse ($$), LoveMama ($)",
-    "Price": "$-$$"
+    "Price": "$-$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Pho",
+    "name": "Pho",
     "Cuisine": "Vietnamese",
     "Type": "Noodles",
     "Spicy": "FALSE",
@@ -561,10 +607,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Madame Vo ($$), Pho Bang ($)",
-    "Price": "$-$$"
+    "Price": "$-$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Bahn Mi",
+    "name": "Bahn Mi",
     "Cuisine": "Vietnamese",
     "Type": "Bread",
     "Spicy": "FALSE",
@@ -573,10 +620,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Saigon Shack ($), Nicky’s Vietnamese Sandwiches ($)",
-    "Price": "$"
+    "Price": "$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Birria Tacos",
+    "name": "Birria Tacos",
     "Cuisine": "Mexican",
     "Type": "Meat",
     "Spicy": "FALSE",
@@ -585,10 +633,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Birria-Landia ($), Los Tacos No. 1 ($)",
-    "Price": "$"
+    "Price": "$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Dan Dan Noodles",
+    "name": "Dan Dan Noodles",
     "Cuisine": "Chinese",
     "Type": "Noodles",
     "Spicy": "TRUE",
@@ -597,10 +646,11 @@
     "Creamy": "FALSE",
     "Sweet": "TRUE",
     "Restaurants": "Han Dynasty",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Hand Rolls",
+    "name": "Hand Rolls",
     "Cuisine": "Japanese",
     "Type": "Seafood, Rice",
     "Spicy": "FALSE",
@@ -609,10 +659,11 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "KazuNori",
-    "Price": "$$"
+    "Price": "$$",
+    "Link": "https://www.hojokbannyc.com/"
   },
   {
-    "Food": "Omakase",
+    "name": "Omakase",
     "Cuisine": "Japanese",
     "Type": "Seafood",
     "Spicy": "FALSE",
@@ -621,6 +672,7 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Sushi Nakazawa ($$$$), SUGARFISH ($$$)",
-    "Price": "$$$-$$$$"
+    "Price": "$$$-$$$$",
+    "Link": "https://www.hojokbannyc.com/"
   }
 ]
