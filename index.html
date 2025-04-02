@@ -3,11 +3,28 @@
 	<head>
 		<title>What Should Hye Lynn Eat?</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="reset.css" rel="stylesheet">
+		<!-- <link href="reset.css" rel="stylesheet"> -->
 	</head>
 	<body>
 		<header>
-			<h1>This is my final project repo!</h1>
+			<h1>What Should Hye Lynn Eat?</h1>
+			<label>
+				Cuisine:
+			</label>
+			<select id="cuisine">
+				<option value="korean">Korean</option>
+				<option value="chinese">Chinese</option> 
+				<option value="japanese">Japanese</option>
+				<option value="thai">Thai</option>
+				<option value="mexican">Mexican</option>
+				<option value="italian">Italian</option>
+				<option value="american">American</option>
+				<option value="indian">Indian</option>
+				<option value="spanish">Spanish</option>
+				<option value="fusion">Fusion</option>
+			</select>
+			<button onclick="getMeal()">Ask the 8-ball</button>
+			<div id="result"></div>
 		</header>
 
 		<main>
