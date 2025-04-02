@@ -6,15 +6,19 @@ document.addEventListener('DOMContentLoaded', () => {
 	fetch ('meals.json')
 		.then(response => response.json())
 		.then(data => {
+			// FORM ENTERING
 			form.addEventListener('submit', (e) => {
 				e.preventDefault()
 
+				// GET SELECTED CUISINE
 				const selectedCuisine = document.getElementById('cuisine').value
 
+				// FILTER MEALS BASED OFF CUISINE SELECTION ^^
 				const filteredMeals = data.filter(meal => 
 					meal.Cuisine.toLowerCase() === selectedCuisine.toLowerCase()
 				)
 
+				// SHOW RESULT
 				if (filteredMeals.length > 0){
 					const randomMeal = filteredMeals[Math.floor(Math.random() * filteredMeals.length)]
 					resultDiv.innerHTML = `
