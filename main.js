@@ -13,10 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
 				// GET SELECTED CUISINE
 				const selectedCuisine = document.getElementById('cuisine').value
 
-				// FILTER MEALS BASED OFF CUISINE SELECTION ^^
+				// GET SPICY
+				const selectedSpice = document.getElementById('spicy').value
+
+				// FILTER MEALS BASED OFF CUISINE SELECTION 
 				const filteredMeals = data.filter(meal => 
-					meal.Cuisine.toLowerCase() === selectedCuisine.toLowerCase()
+					meal.Cuisine.toLowerCase() === selectedCuisine && meal.Spicy === selectedSpice
 				)
+
 
 				// SHOW RESULT
 				if (filteredMeals.length > 0){
@@ -43,63 +47,3 @@ document.addEventListener('DOMContentLoaded', () => {
 		})
 	
 })
-
-
-// async function loadMeals() {
-// 	try{
-// 		const response = await fetch('meals.json')
-// 		return await response.json()
-// 	} catch (error) {
-// 		console.error("Error loading the meals", error)
-// 		return[]
-// 	}
-// }
-
-// const updateForm = (params) => {
-// 	params = new URLSearchParams(params)
-// 	params.forEach((value, key) => {
-// 		let inputOrSelect = document.getElementById(key)
-// 		if (inputOrSelect) { 
-// 			inputOrSelect.value = value
-// 		}
-// 	})
-// }
-
-// const storeParams = () => {
-// 	let formParams = new FormData (formElement)
-// 	formParams.forEach((value, key) => {
-// 		localStorage.setItem(key, value)
-// 	})
-// }
-
-// const updateUrlParams = () => {
-// 	let formParams = new URLSearchParams(new FormData(formElement)).toString()
-// 	window.history.replaceState(null, null, '?' + formParams)
-// 	storeParams()
-// }
-
-// formElement.onsubmit = async (event) => {
-// 	event.preventDefault()
-// 	const meals = await loadMeals()
-// 	const cuisine = document.getElementById('cuisine').value
-// 	const filteredMeals = meals.filter(m => m.cuisine.toLowerCase() === cuisine)
-
-// 	if (filteredMeals.length > 0) {
-// 		const randomMeal = filteredMeals[Math.floor(Math.random() * filteredMeals.length)]
-// 		document.getElementById('result').innerHTML = `How about <a href='${randomMeal.link}' target= '_blank'>${randomMeal.name} at ${randomMeal.restaurant}</a>?`
-// 	} else { 
-// 		document.getElementById('result').innerHTML = "Sorry, no meal found!"
-// 	}
-// }
-
-// formElement.oninput = () => updateUrlParams()
-
-// if (window.location.search) {
-// 	updateForm(window.location.search)
-// } else if (localStorage.length > 0) {
-// 	let storedParams = new URLSearchParams()
-// 	Object.keys(localStorage).forEach(key => {
-// 		storedParams.set(key, localStorage.getItem(key))
-// 	})
-// 	updateForm(storedParams.toString())
-// }

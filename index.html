@@ -9,6 +9,9 @@
 	<body>
 		<header>
 			<h1>What Should Hye Lynn Eat?</h1>
+		</header>
+
+		<main>
 			<form id="meal-form">
 				<label for="cuisine">
 					Cuisine:
@@ -25,13 +28,26 @@
 					<option value="spanish">Spanish</option>
 					<option value="fusion">Fusion</option>
 				</select>
+				<label for="spicy">
+					Spicy?
+				</label>
+				<select id="spicy" name="spicy">
+					<option value="TRUE">Yes</option>
+					<option value="FALSE">No</option> 
+				</select>
+				<label for="type">
+					Type
+				</label>
+				<select id="type" name="type">
+					<option value="rice">Rice</option>
+					<option value="noodles">Noodles</option>
+					<option value="bread">Bread</option>
+					<option value="meat">Meat</option>  
+				</select>
 				<button type="submit">Ask the 8-ball</button>
 			</form>
 			<div id="result"></div>
-		</header>
-
-		<main>
-			<h2>Food</h2>
+			
 		</main>
 
 		<footer>
