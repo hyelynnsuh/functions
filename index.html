@@ -13,47 +13,75 @@
 		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<header>
-			<img src="assets/smallball.png">
+		<header class="navbar">
+			<a href="#" class="logo">
+				<img src="assets/smallball.png">
+			</a>
+			<input class="side-menu" type="checkbox" id="side-menu">
+			<label class="hamb" for="side-menu">
+				<span class="hamb-line"></span>
+			</label>
+			<nav class="nav">
+				<ul class="menu">
+					<li>
+						<a>restaurants</a>
+					</li>
+					<li>
+						<a>journal</a>
+					</li>
+					<li>
+						<a>about</a>
+					</li>
+				</ul>
+			</nav>
 		</header>
 
 		<main>
-			<h1>What Should Hye Lynn Eat?</h1>
+			<h1>what should hye lynn eat?</h1>
 			<form id="meal-form">
-				<label for="cuisine">
-					Cuisine:
-				</label>
-				<select id="cuisine" name="cuisine">
-					<option value="korean">Korean</option>
-					<option value="chinese">Chinese</option> 
-					<option value="japanese">Japanese</option>
-					<option value="thai">Thai</option>
-					<option value="vietnamese">Vietnamese</option>
-					<option value="mexican">Mexican</option>
-					<option value="italian">Italian</option>
-					<option value="american">American</option>
-					<option value="indian">Indian</option>
-					<option value="spanish">Spanish</option>
-					<option value="fusion">Fusion</option>
-				</select>
-				<label for="spicy">
-					Spicy?
-				</label>
-				<select id="spicy" name="spicy">
-					<option value="TRUE">Yes</option>
-					<option value="FALSE">No</option> 
-				</select>
-				<label for="type">
-					Type
-				</label>
-				<select id="type" name="type">
-					<option value="rice">Rice</option>
-					<option value="noodles">Noodles</option>
-					<option value="soup">Soup</option>
-					<option value="bread">Bread</option>
-					<option value="meat">Meat</option>  
-				</select>
-				<button type="submit">Ask the 8-ball</button>
+				<div class="form">
+					<label for="cuisine">
+						Cuisine:
+					</label>
+					<select id="cuisine" name="cuisine">
+						<option value="korean">Korean</option>
+						<option value="chinese">Chinese</option> 
+						<option value="japanese">Japanese</option>
+						<option value="thai">Thai</option>
+						<option value="vietnamese">Vietnamese</option>
+						<option value="mexican">Mexican</option>
+						<option value="italian">Italian</option>
+						<option value="american">American</option>
+						<option value="indian">Indian</option>
+						<option value="spanish">Spanish</option>
+						<option value="fusion">Fusion</option>
+					</select>
+				</div>
+				<div class="form">
+					<label for="spicy">
+						Spicy?
+					</label>
+					<select id="spicy" name="spicy">
+						<option value="TRUE">Yes</option>
+						<option value="FALSE">No</option> 
+					</select>
+				</div>
+				<div class="form">
+					<label for="type">
+						Type
+					</label>
+					<select id="type" name="type">
+						<option value="rice">Rice</option>
+						<option value="noodles">Noodles</option>
+						<option value="soup">Soup</option>
+						<option value="bread">Bread</option>
+						<option value="meat">Meat</option>  
+					</select>
+				</div>
+				<div class="button-flex">
+					<button type="submit">Ask the 8-ball</button>
+					<button type="submit">Surprise Me!</button>
+				</div>
 			</form>
 			<div id="result"></div>
 			<div class="ball">
