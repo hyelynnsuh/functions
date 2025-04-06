@@ -154,6 +154,7 @@ li > a {
 
 .ball {
 	width: 10rem;
+	margin: auto;
 
 	img {
 		object-fit: cover;
@@ -162,7 +163,7 @@ li > a {
 }
 
 h1 {
-	font-size: calc(var(--font-size)*2.3);
+	font-size: calc(var(--font-size)*1.3);
 	font-weight: var(--bolded);
 	margin-left: var(--margin);
 	margin-right: var(--margin);
@@ -205,4 +206,175 @@ button {
 	border: 1px solid var(--black);
 	border-radius: var(--border-radius);
 	padding: calc(var(--padding)/1.5);
+}
+
+/* GASHAPON */
+.gashapon-machine {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	margin-top: 2rem;
+	/* animation: popIn 1s ease-out; */
+}
+
+.body {
+	position: relative;
+	width: 200px;
+	height: 300px;
+	background: #fefefe;
+	border-radius: 1rem;
+	border: 4px solid #ccc;
+	box-shadow: inset 0 0 20px #ddd, 0 5px 15px rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+}
+
+.window {
+	background: radial-gradient(circle at 50% 50%, #f7f7f7, #ccc);
+	border: 2px solid #999;
+	width: 100%;
+	height: 160px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.crank {
+	width: 20px;
+	height: 20px;
+	background: #555;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	cursor: pointer;
+	transition: transform 0.4s ease;
+}
+
+.crank.spin {
+	transform: rotate(360deg);
+}
+
+.capsule {
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	bottom: 10px;
+	display: none;
+	animation: drop 1s ease-in forwards;
+}
+
+@keyframes drop {
+	0% {
+		transform: translateY(-120px) scale(0.6) rotate(-90deg);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateY(0) scale(1) rotate(0deg);
+		opacity: 1;
+	}
+}
+
+.capsule-top, .capsule-bottom {
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	left: 0;
+	border-radius: 50%;
+	background: radial-gradient(circle at 30% 30%, #fff, #ddd);
+	border: 1px solid #aaa;
+}
+
+.capsule-top {
+	top: 0;
+	z-index: 2;
+}
+
+.capsule-bottom {
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.capsule.open .capsule-top {
+	animation: popTop 0.5s ease-out forwards;
+}
+
+
+@keyframes popTop {
+	0% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(-60px) rotate(-25deg);
+	}
+}
+
+
+/* MODAL */
+.modal {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.8);
+	background: #fffbe8;
+	color: #222;
+	border: 2px dashed #c7b174;
+	border-radius: 10px;
+	padding: var(--padding);
+	z-index: 999;
+	width: 80%;
+	max-width: 300px;
+	text-align: center;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease-in-out;
+	font-family: var(--font-family);
+	opacity: 0;
+	pointer-events: none;
+}
+
+.modal.show {
+	transform: translate(-50%, -50%) scale(1);
+	opacity: 1;
+	pointer-events: auto;
+}
+
+/* HIDE MODAL */
+.hidden {
+	display: none;
+}
+
+.close-btn {
+	position: absolute;
+	top: 0.3rem;
+	right: 0.6rem;
+	background: none;
+	border: none;
+	font-size: 1.2rem;
+	cursor: pointer;
+	color: #444;
+}
+
+.red {
+	background: radial-gradient(circle at 30% 30%, #f99, #c00);
+}
+
+.blue {
+	background: radial-gradient(circle at 30% 30%, #9cf, #00a);
+}
+
+.green {
+	background: radial-gradient(circle at 30% 30%, #afa, #080);
+}
+
+.pink {
+	background: radial-gradient(circle at 30% 30%, #fcd, #c06);
 }

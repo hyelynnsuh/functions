@@ -38,6 +38,23 @@
 
 		<main>
 			<h1>what should hye lynn eat?</h1>
+
+			<!-- GASHAPON -->
+			<div class="gashapon">
+				<div class="body">
+					<div class="window">
+						<div class="capsule" id="capsule">
+							<div class="capsule-top" id="capsule-top"></div>
+							<div class="capsule-bottom" id="capsule-bottom">
+								<div class="paper-slip" id="paper-slip"></div>
+							</div>
+						</div>
+					</div>
+					<div class="crank" id="crank"></div>
+				</div>
+				
+				<button id="gumball-button">get a meal</button>
+			</div>
 			<form id="meal-form">
 				<div class="form">
 					<label for="cuisine">
@@ -78,15 +95,16 @@
 						<option value="meat">Meat</option>  
 					</select>
 				</div>
-				<div class="button-flex">
-					<button type="submit">Ask the 8-ball</button>
-					<button type="submit">Surprise Me!</button>
-				</div>
 			</form>
-			<div id="result"></div>
-			<div class="ball">
-				<img src="assets/ball.png">
+
+			<div class="modal hidden" id="modal-result">
+				<div class="modal-content" id="modal-content">
+					<button class="close-btn" id="close-modal"></button>
+				</div>
 			</div>
+
+			<!-- <div id="result"></div> -->
+			
 		</main>
 
 		<footer>
