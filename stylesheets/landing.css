@@ -5,6 +5,7 @@
 
 * {
 	text-align: center;
+	font-family: var(--font-family);
 }
 
 body {
@@ -17,15 +18,40 @@ body {
 /* HERO TEXT */
 h1 {
 	font-family: var(--jua);
-	color: var(--light-blue);
+	color: var(--white);
 	font-size: calc(var(--font-size)*3);
 }
 
-.hero {
-	background-color: var(--white);
+.hero, .sub {
 	width: fit-content;
 	margin: auto;
-	margin-top: var(--margin);
 	padding: var(--padding);
 	border-radius: var(--border-radius);
 }
+
+.hero {
+	transform: rotate(-1deg);
+	background-color: var(--pink);
+	margin-top: var(--margin);
+}
+
+.sub {
+	font-weight: var(--bolded);
+	background-color: var(--yellow);
+	color: var(--white);
+	transform: rotate(1deg);
+}
+
+.colophon {
+	background-color: var(--white);	
+	padding: var(--padding);
+	border-radius: var(--border-radius);
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+	font-weight: var(--bolded);
+	color: var(--blue);
+	margin-left: var(--margin);
+	margin-right: var(--margin);
+}
+
