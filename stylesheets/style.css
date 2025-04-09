@@ -152,9 +152,8 @@ li > a {
 }
 
 
-.ball {
-	width: 10rem;
-	margin: auto;
+.logo {
+	width: 1.5rem;
 
 	img {
 		object-fit: cover;
@@ -191,7 +190,7 @@ h1 {
 	text-align: center;
 	padding: calc(var(--padding)/2);
 	border: solid 1px var(--black);
-	font-size: calc(var(--font-size)/1.5);
+	font-size: calc(var(--font-size)/1.3);
 }
 
 label {
@@ -217,7 +216,7 @@ button {
 /* GASHAPON */
 .gashapon-wrapper {
 	position: relative;
-	width: 320px;
+	/* width: 320px; */
 	height: auto;
 	margin: auto;
 }
@@ -248,7 +247,7 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-left: 7rem;
+	margin-left: 8rem;
 }
 
 .capsule {
@@ -273,11 +272,11 @@ button {
 }
 
 #top-capsule {
-	top: 25%;
+	top: 15%;
 }
 
 #bottom-capsule {
-	top: 55%;
+	top: 45%;
 }
 
 @keyframes dropBounce {
