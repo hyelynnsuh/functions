@@ -175,27 +175,32 @@ h1 {
 /* FORMS STYLING - modified from https://www.w3schools.com/howto/howto_custom_select.asp */
 #meal-form {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	gap: var(--gap);
+	margin-left: var(--margin);
+	margin-right: var(--margin);
+	margin-bottom: var(--margin);
 }
-
 
 .form {
 	position: relative;
-	background-color: #2a2723;
+	background-color: var(--white);
 	width: fit-content;
-	font-size: calc(var(--font-size)*1.1);
 	border-radius: var(--border-radius);
 	text-align: center;
-	padding: calc(var(--padding)/1.2);
+	padding: calc(var(--padding)/2);
+	border: solid 1px var(--black);
+	font-size: calc(var(--font-size)/1.5);
 }
 
-label, option {
-	color: var(--white);
+label {
+	color: var(--black);
 }
 
+select {
+	color: var(--black);
+}
 
 .button-flex {
 	display: flex;
@@ -301,115 +306,6 @@ button {
 }
 
 
-/* .gashapon-machine {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 1rem;
-	margin-top: 2rem;
-}
-
-.body {
-	position: relative;
-	width: 200px;
-	height: 300px;
-	background: #fefefe;
-	border-radius: 1rem;
-	border: 4px solid #ccc;
-	box-shadow: inset 0 0 20px #ddd, 0 5px 15px rgba(0, 0, 0, 0.2);
-	padding: 1rem;
-}
-
-.window {
-	background: radial-gradient(circle at 50% 50%, #f7f7f7, #ccc);
-	border: 2px solid #999;
-	width: 100%;
-	height: 160px;
-	border-radius: 50%;
-	position: relative;
-	overflow: hidden;
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-}
-
-.crank {
-	width: 20px;
-	height: 20px;
-	background: #555;
-	border-radius: 50%;
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
-	cursor: pointer;
-	transition: transform 0.4s ease;
-}
-
-.crank.spin {
-	transform: rotate(360deg);
-}
-
-.capsule {
-	width: 70px;
-	height: 70px;
-	position: absolute;
-	bottom: 10px;
-	display: none;
-	animation: drop 1s ease-in forwards;
-}
-
-@keyframes drop {
-	0% {
-		transform: translateY(-120px) scale(0.6) rotate(-90deg);
-		opacity: 0;
-	}
-
-	100% {
-		transform: translateY(0) scale(1) rotate(0deg);
-		opacity: 1;
-	}
-}
-
-.capsule-top, .capsule-bottom {
-	width: 100%;
-	height: 50%;
-	position: absolute;
-	left: 0;
-	border-radius: 50%;
-	background: radial-gradient(circle at 30% 30%, #fff, #ddd);
-	border: 1px solid #aaa;
-}
-
-.capsule-top {
-	top: 0;
-	z-index: 2;
-}
-
-.capsule-bottom {
-	bottom: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	overflow: hidden;
-	z-index: 1;
-}
-
-.capsule.open .capsule-top {
-	animation: popTop 0.5s ease-out forwards;
-}
-
-
-@keyframes popTop {
-	0% {
-		transform: translateY(0);
-	}
-
-	100% {
-		transform: translateY(-60px) rotate(-25deg);
-	}
-} */
-
-
 /* MODAL */
 .modal {
 	position: fixed;
@@ -454,20 +350,3 @@ button {
 	color: #444;
 }
 
-
-
-/* .red {
-	background: radial-gradient(circle at 30% 30%, #f99, #c00);
-}
-
-.blue {
-	background: radial-gradient(circle at 30% 30%, #9cf, #00a);
-}
-
-.green {
-	background: radial-gradient(circle at 30% 30%, #afa, #080);
-}
-
-.pink {
-	background: radial-gradient(circle at 30% 30%, #fcd, #c06);
-} */
