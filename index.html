@@ -4,16 +4,28 @@
 		<title>What Should Hye Lynn Eat?</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="stylesheets/reset.css" rel="stylesheet">
-		<link href="stylesheets/style.css" rel="stylesheet">
+		<link href="stylesheets/common.css" rel="stylesheet">
+		<link href="stylesheets/landing.css" rel="stylesheet">
 		<script defer src="main.js"></script>
 
 		<!-- FONTS -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<header class="navbar">
+		<section class="hero">
+			<h1 class="title">오늘은 뭐 먹지?</h1>
+		</section>
+		<p class="subtitle">what should i eat today?</p>
+		<p class="description">i have the hardest time deciding what to eat. try my generator to help me decide! choose your favorite cuisine, spiciness, and food type. feeling lucky? try </p>
+		<p> OR </p>
+		<p>feeling lucky? try our completely random generator</p>
+		<!-- <header class="navbar">
 			<a href="#" class="logo">
 				<img src="assets/logo.png">
 			</a>
@@ -34,72 +46,11 @@
 					</li>
 				</ul>
 			</nav>
-		</header>
+		</header> -->
 
 		<main>
 			<!-- <h1>what should hye lynn eat?</h1> -->
-			<form id="meal-form">
-				<div class="form">
-					<label for="cuisine">
-						Cuisine:
-					</label>
-					<select id="cuisine" name="cuisine">
-						<option value="korean">Korean</option>
-						<option value="chinese">Chinese</option> 
-						<option value="japanese">Japanese</option>
-						<option value="thai">Thai</option>
-						<option value="vietnamese">Vietnamese</option>
-						<option value="mexican">Mexican</option>
-						<option value="italian">Italian</option>
-						<option value="american">American</option>
-						<option value="indian">Indian</option>
-						<option value="spanish">Spanish</option>
-						<option value="fusion">Fusion</option>
-					</select>
-				</div>
-				<div class="form">
-					<label for="spicy">
-						Spicy?
-					</label>
-					<select id="spicy" name="spicy">
-						<option value="TRUE">Yes</option>
-						<option value="FALSE">No</option> 
-					</select>
-				</div>
-				<div class="form">
-					<label for="type">
-						Type:
-					</label>
-					<select id="type" name="type">
-						<option value="rice">Rice</option>
-						<option value="noodles">Noodles</option>
-						<option value="soup">Soup</option>
-						<option value="bread">Bread</option>
-						<option value="meat">Meat</option>  
-					</select>
-				</div>
-			</form>
-	
-			<!-- GASHAPON -->
-			 <div class="gashapon-wrapper">
-				<img src="assets/gashapon.png" class="bg">
 
-				<!-- CRANK BUTTON -->
-				 <div class="crank-button" id="crank"></div>
-
-				 <div class="capsule-container">
-					<img src="assets/capsule-full.png" id="full-capsule" class="capsule full-capsule">
-					<img src="assets/capsule-top.png" id="top-capsule" class="capsule top-capsule hidden">
-					<img src="assets/capsule-bottom.png" id="bottom-capsule" class="capsule bottom-capsule hidden">
-				 </div>
-			 </div>
-
-			 <div class="modal hidden" id="modal-result">
-				<div class="modal-content" id="modal-content">
-					<button class="close-btn" id="close-modal"></button>
-				</div>
-			</div>
-	
 			
 		</main>
 

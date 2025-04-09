@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 					meal.Cuisine.toLowerCase().includes(selectedCuisine) && meal.Spicy === selectedSpice && meal.Type.toLowerCase().includes(selectedType)
 				)
 
-				// DROP FULL CAPSULE
+				// DROP FULL CAPSULE - learned from https://medium.com/@syedfahim300701/using-settimeout-in-js-fa50da74d787#:~:text=setTimeout()%20is%20a%20useful,behavior%20to%20your%20JavaScript%20applications. 
 				setTimeout(() => {
 					fullCapsule.classList.add('drop-in')
 					fullCapsule.style.opacity = 1
