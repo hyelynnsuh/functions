@@ -4,6 +4,7 @@
 	--black: #2a2723;
 	--white: #fafafa;
 	--shadow: #2a272382;
+	--blue-shadow: #3a68c4;
 	--font-family: "Lato", sans-serif; 
 	--bolded: 900;
 	--margin: 1.5rem;
@@ -90,7 +91,7 @@ li > a {
 }
 
 .hamb-line {
-	background: var(--black);
+	background: #e51933;
 	display: block;
 	height: 2px;
 	position: relative;
@@ -98,7 +99,7 @@ li > a {
 }
 
 .hamb-line::before{
-	background: var(--black);
+	background: #e51933;
 	content: '';
 	display: block;
 	height: 100%;
@@ -116,7 +117,7 @@ li > a {
 	position: absolute;
 	transition: all .2s ease-out;
 	width: 100%;
-	background: var(--black);
+	background: #e51933;
 }
 
 .side-menu {
