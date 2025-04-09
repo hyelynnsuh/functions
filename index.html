@@ -40,10 +40,29 @@
 			<!-- <h1>what should hye lynn eat?</h1> -->
 
 			<!-- GASHAPON -->
-			 <div class="img">
+			 <div class="gashapon-wrapper">
+				<img src="assets/gashapon.png" class="bg">
+
+				<!-- CRANK BUTTON -->
+				 <div class="crank-button" id="crank"></div>
+
+				 <div class="capsule-container">
+					<img src="assets/capsule-full.png" id="full-capsule" class="capsule full-capsule">
+					<img src="assets/capsule-top.png" id="top-capsule" class="capsule top-capsule hidden">
+					<img src="assets/capsule-bottom.png" id="bottom-capsule" class="capsule bottom-capsule hidden">
+				 </div>
+			 </div>
+
+			 <div class="modal hidden" id="modal-result">
+				<div class="modal-content" id="modal-content">
+					<button class="close-btn" id="close-modal"></button>
+				</div>
+			</div>
+			 <!-- <div class="img">
 				<img src="assets/gashapon.png">
 				
-			 </div>
+			 </div> -->
+
 			<!-- <div class="gashapon">
 				<div class="body">
 					<div class="window">
@@ -55,10 +74,10 @@
 						</div>
 					</div>
 					<div class="crank" id="crank"></div>
-				</div> -->
+				</div>
 				
 				<button id="gumball-button">get a meal</button>
-			</div>
+			</div> -->
 			<form id="meal-form">
 				<div class="form">
 					<label for="cuisine">
@@ -101,11 +120,7 @@
 				</div>
 			</form>
 
-			<div class="modal hidden" id="modal-result">
-				<div class="modal-content" id="modal-content">
-					<button class="close-btn" id="close-modal"></button>
-				</div>
-			</div>
+			
 
 			<!-- <div id="result"></div> -->
 			
