@@ -57,6 +57,7 @@ header {
 	border: solid 2px var(--black);
 	padding-left: calc(var(--padding)/2);
 	padding-right: calc(var(--padding)/2);
+	border-radius: 5px 5px 5px 0px;
 }
 
 .feeling-hungry {
