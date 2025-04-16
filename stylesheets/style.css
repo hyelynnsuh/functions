@@ -234,18 +234,19 @@ button {
 .gashapon-wrapper {
 	position: relative;
 	width: 20rem;
-	height: 20rem;
+	height: 23rem;
 	margin: auto;
 	object-fit: cover;
 }
 
 .bg {
 	width: 120%;
-	height: 20rem;
+	height: 25rem;
 	object-fit: cover;
 	display: block;
 	z-index: 1;
 	image-rendering: pixelated;
+	max-block-size: unset;
 }
 
 .crank-button {
