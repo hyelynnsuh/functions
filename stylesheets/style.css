@@ -16,6 +16,7 @@ body {
 	font-family: var(--pixel);
 	background-color: var(--white);
 	text-transform: uppercase;
+	background-size: 250%;
 }
 
 * {
@@ -227,15 +228,19 @@ button {
 /* GASHAPON */
 .gashapon-wrapper {
 	position: relative;
-	/* width: 320px; */
-	height: auto;
+	width: 20rem;
+	height: 20rem;
 	margin: auto;
+	object-fit: cover;
 }
 
 .bg {
-	width: 100%;
+	width: 120%;
+	height: 20rem;
+	object-fit: cover;
 	display: block;
 	z-index: 1;
+	image-rendering: pixelated;
 }
 
 .crank-button {
