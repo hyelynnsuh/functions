@@ -64,7 +64,7 @@ button {
 	background-color: var(--wht);
 	font-weight: var(--bolded);
 	margin-top: var(--padding);
-	width: 19.5rem;
+	min-width: 20.5rem;
 	display: flex;
 	justify-content: center;
 	gap: .5rem;
@@ -92,4 +92,37 @@ footer {
 	border: var(--bk) 2px solid;
 	font-weight: var(--bolded);
 	margin-top: var(--margin);
+}
+
+
+/* 800PX */
+@media (min-width: 800px) {
+	body {
+		background-size: 150%;
+	}
+
+	.hero-image {
+		width: 30rem;
+		margin-left: auto;
+		margin-right: auto;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.colophon {
+		width: 30rem;
+		margin: auto;
+		font-size: calc(var(--font-size)*1.3);
+	}
+
+	a {
+		font-size: calc(var(--font-size)*1.3);
+	}
+
+	button {
+		min-width: 30rem;
+	}
+
 }
