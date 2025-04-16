@@ -17,6 +17,8 @@ body {
 	background-color: var(--white);
 	text-transform: uppercase;
 	background-size: 250%;
+	background-image: url("../assets/8bit3.webp");
+	background-size: 250%;
 }
 
 * {
@@ -209,6 +211,7 @@ h1 {
 label {
 	color: var(--black);
 	font-weight: var(--bolded);
+	font-size: var(--font-size);
 }
 
 select {
@@ -398,4 +401,19 @@ h3 {
 /* FOOTER */
 footer {
 	margin-top: var(--margin);
+}
+
+
+/* 800PX */
+@media (min-width: 800px) {
+	#meal-form {
+		width: 30rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	select {
+		font-size: calc(var(--font-size));
+	}
+
 }

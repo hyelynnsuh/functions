@@ -60,8 +60,8 @@ h1 {
 
 button {
 	padding: var(--padding);
-	border: solid 2px var(--bk);
-	background-color: var(--wht);
+	border: solid 2px var(--wht);
+	background-color: var(--bk);
 	font-weight: var(--bolded);
 	margin-top: var(--padding);
 	min-width: 20.5rem;
@@ -77,7 +77,8 @@ button {
 }
 
 button > a {
-	text-decoration: underline;
+	/* text-decoration: underline; */
+	color: var(--wht);
 }
 
 .hero-image {
