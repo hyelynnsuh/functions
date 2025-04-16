@@ -16,9 +16,8 @@ body {
 	font-family: var(--pixel);
 	background-color: var(--white);
 	text-transform: uppercase;
-	background-size: 250%;
 	background-image: url("../assets/8bit3.webp");
-	background-size: 250%;
+	background-size: 261%;
 }
 
 * {
@@ -234,7 +233,7 @@ button {
 .gashapon-wrapper {
 	position: relative;
 	width: 20rem;
-	height: 23rem;
+	height: 26rem;
 	margin: auto;
 	object-fit: cover;
 }
