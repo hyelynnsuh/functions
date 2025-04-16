@@ -417,4 +417,12 @@ footer {
 		font-size: calc(var(--font-size));
 	}
 
+	body{
+		background-size: 150%;
+	}
+
+	.bg {
+		max-block-size: unset;
+		height: 30rem;
+	}
 }
