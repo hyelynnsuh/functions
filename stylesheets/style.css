@@ -17,7 +17,7 @@ body {
 	background-color: var(--white);
 	text-transform: uppercase;
 	background-image: url("../assets/8bit3.webp");
-	background-size: 261%;
+	background-size: 300%;
 }
 
 * {
@@ -224,8 +224,7 @@ select {
 }
 
 button {
-	border: 1px solid var(--black);
-	border-radius: var(--border-radius);
+	border: 2px solid var(--black);
 	padding: calc(var(--padding)/1.5);
 }
 
@@ -398,6 +397,27 @@ h3 {
 	font-weight: var(--bolded);
 }
 
+
+/* FEELING LUCKY BUTTON */
+.feeling-lucky {
+	padding: var(--padding);
+	border: solid 2px var(--white);
+	background-color: var(--black);
+	font-weight: var(--bolded);
+	margin-top: var(--margin);
+	min-width: 20.5rem;
+	display: flex;
+	justify-content: center;
+	gap: .5rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: var(--margin);
+}
+
+button > a {
+	color: var(--white);
+	text-decoration: underline;
+}
 
 /* FOOTER */
 footer {
