@@ -1,15 +1,22 @@
 :root {
 	--jua: "Jua", sans-serif;
-
+	--pixel: "Pixelify Sans", sans-serif;
+	--bk: #111111;
+	--wht: #EEEEEE;
 }
 
 * {
 	text-align: center;
-	font-family: var(--font-family);
+	font-family: var(--pixel);
+	text-transform: uppercase;
 }
 
 body {
-	background-color: #B3E5FC;
+	background-color: var(--wht);
+	image-rendering: pixelated;
+	color: var(--bk);
+	background-image: url("../assets/8bit3.webp");
+	background-size: 250%;
 	/* background-image: 
 		repeating-linear-gradient(0deg, rgba(13, 71, 161, 0.5) 0px 8px, transparent 8px 16px),
 		repeating-linear-gradient(90deg, rgba(13, 71, 161, .5) 0px 8px, transparent 8px 16px) */
@@ -17,41 +24,62 @@ body {
 
 /* HERO TEXT */
 h1 {
-	font-family: var(--jua);
-	color: var(--white);
-	font-size: calc(var(--font-size)*3);
+	font-family: var(--pixel);
+	color: var(--bk);
+	font-size: calc(var(--font-size)*2);
+	font-weight: 800;
 }
 
 .hero, .sub {
 	width: fit-content;
 	margin: auto;
 	padding: var(--padding);
-	border-radius: var(--border-radius);
+	border: solid 2px var(--bk);
+	background-color: var(--wht);
 }
 
 .hero {
-	transform: rotate(-1deg);
-	background-color: var(--pink);
 	margin-top: var(--margin);
 }
 
 .sub {
 	font-weight: var(--bolded);
-	background-color: var(--yellow);
-	color: var(--white);
-	transform: rotate(1deg);
+	background-color: var(--wht);
+	color: var(--bk);
 }
 
 .colophon {
-	background-color: var(--white);	
+	background-color: var(--wht);	
 	padding: var(--padding);
-	border-radius: var(--border-radius);
 	display: flex;
 	flex-direction: column;
 	gap: var(--gap);
 	font-weight: var(--bolded);
-	color: var(--blue);
+	color: var(--bk);
 	margin-left: var(--margin);
+	border: solid 2px var(--bk);
 	margin-right: var(--margin);
 }
 
+button {
+	padding: var(--padding);
+	border: solid 2px var(--bk);
+	background-color: var(--wht);
+	font-weight: var(--bolded);
+	margin-top: var(--padding);
+	width: 19.5rem;
+}
+
+.hero-image {
+	margin-left: var(--margin);
+	margin-right: var(--margin);
+	margin-top: var(--margin);
+}
+
+footer {
+	padding: var(--padding);
+	background-color: var(--wht);
+	border: var(--bk) 2px solid;
+	font-weight: var(--bolded);
+	margin-top: var(--margin);
+}
