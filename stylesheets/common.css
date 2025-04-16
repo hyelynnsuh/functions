@@ -156,4 +156,13 @@ li > a {
 	}
 }
 
+footer {
+	padding: var(--padding);
+	background-color: var(--white);
+	border: var(--black) 2px solid;
+	font-weight: var(--bolded);
+	margin-top: var(--margin);
+}
+
+
 
