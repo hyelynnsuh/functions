@@ -54,10 +54,10 @@ document.addEventListener('DOMContentLoaded', () => {
 						const randomMeal = filteredMeals[Math.floor(Math.random() * filteredMeals.length)]
 						modalContent.innerHTML = `
 						<button class="close-btn" id="close-modal">\u2715</button> <h3>You Should Eat:</h3>
-						<p>${randomMeal.name}</p>
+						<p class="modal-info">${randomMeal.name}</p>
 						<p>cuisine: ${randomMeal.Cuisine}</p>
 						<p>price range: ${randomMeal.Price}</p>
-						<p><a href="${randomMeal.Link}" target="_blank">Restaurants Near You</a></p>
+						<div class="restaurant"><a href="${randomMeal.Link}" target="_blank">Restaurants Near You</a></p>
 						`
 					} else {
 						modalContent.innerHTML = `

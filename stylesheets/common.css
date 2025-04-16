@@ -1,14 +1,14 @@
 :root {
 	--font-size: 16px;
 	--root-size: 1.2rem;
-	--black: #2a2723;
-	--white: #fafafa;
+	--black: #111111;
+	--white: #EEEEEE;
 	--shadow: #2a272382;
 	--light-blue: #3a68c48a;
 	--blue: #3a68c4;
 	--pink: #f6b3c2;
 	--yellow: #c7b174;
-	--font-family: "Lato", sans-serif; 
+	--font-family: "Pixelify Sans", sans-serif;
 	--bolded: 900;
 	--margin: 1.5rem;
 	--padding: 1rem;
@@ -16,7 +16,7 @@
 	--gap: 1rem;
 }
 
-header {
+/* header {
 	display: flex;
 	justify-content: space-between;
 	position: sticky;
@@ -24,7 +24,7 @@ header {
 	padding-bottom: calc(var(--padding)/1.4);
 	margin-bottom: var(--margin);
 	padding-left: var(--padding);
-	box-shadow: 0px 4px 4px -2px var(--shadow);
+	border: var(--black) 2px solid;
 	background-color: var(--white);
 	top: 0;
 	z-index: 100;
@@ -42,7 +42,7 @@ header {
 
 .logo {
 	height: 100%;
-}
+} */
 
 
 /* NAV */

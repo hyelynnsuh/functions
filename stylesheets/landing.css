@@ -17,9 +17,6 @@ body {
 	color: var(--bk);
 	background-image: url("../assets/8bit3.webp");
 	background-size: 250%;
-	/* background-image: 
-		repeating-linear-gradient(0deg, rgba(13, 71, 161, 0.5) 0px 8px, transparent 8px 16px),
-		repeating-linear-gradient(90deg, rgba(13, 71, 161, .5) 0px 8px, transparent 8px 16px) */
 }
 
 /* HERO TEXT */
