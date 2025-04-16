@@ -419,11 +419,11 @@ footer {
 	}
 
 	body{
-		background-size: 150%;
+		background-size: 110%;
 	}
 
 	.bg {
 		max-block-size: unset;
-		height: 30rem;
+		height: 23rem;
 	}
 }

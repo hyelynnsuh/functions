@@ -56,6 +56,7 @@ h1 {
 	margin-left: var(--margin);
 	border: solid 2px var(--bk);
 	margin-right: var(--margin);
+	margin-bottom: var(--padding);
 }
 
 button {
@@ -63,7 +64,7 @@ button {
 	border: solid 2px var(--wht);
 	background-color: var(--bk);
 	font-weight: var(--bolded);
-	margin-top: var(--padding);
+	margin-top: var(--margin);
 	min-width: 20.5rem;
 	display: flex;
 	justify-content: center;
@@ -86,6 +87,10 @@ button > a {
 	margin-left: var(--margin);
 	margin-right: var(--margin);
 	margin-top: var(--margin);
+	
+	img {
+		margin-bottom: var(--padding);
+	}
 }
 
 footer {
@@ -100,7 +105,7 @@ footer {
 /* 800PX */
 @media (min-width: 800px) {
 	body {
-		background-size: 150%;
+		background-size: 138%;
 	}
 
 	.hero-image {
