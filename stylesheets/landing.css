@@ -65,6 +65,19 @@ button {
 	font-weight: var(--bolded);
 	margin-top: var(--padding);
 	width: 19.5rem;
+	display: flex;
+	justify-content: center;
+	gap: .5rem;
+	margin-left: auto;
+	margin-right: auto;
+
+	img {
+		width: 1rem;
+	}
+}
+
+button > a {
+	text-decoration: underline;
 }
 
 .hero-image {
