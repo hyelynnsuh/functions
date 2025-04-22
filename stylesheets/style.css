@@ -446,3 +446,11 @@ footer {
 		height: 23rem;
 	}
 }
+
+
+/* 1290 */
+@media (min-width: 1290px) {
+	#meal-form {
+		width: 30rem;
+	}
+}
