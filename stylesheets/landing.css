@@ -16,7 +16,7 @@ body {
 	image-rendering: pixelated;
 	color: var(--bk);
 	background-image: url("../assets/8bit3.webp");
-	background-size: 250%;
+	background-size: 256%;
 }
 
 /* HERO TEXT */
@@ -63,8 +63,8 @@ h1 {
 /* BUTTON */
 button {
 	padding: var(--padding);
-	border: solid 2px var(--wht);
-	background-color: var(--bk);
+	border: solid 2px var(--bk);
+	background-color: var(--yellow);
 	font-weight: var(--bolded);
 	margin-top: var(--margin);
 	min-width: 20.5rem;
@@ -79,10 +79,10 @@ button {
 
 button > a {
 	/* text-decoration: underline; */
-	color: var(--wht);
+	color: var(--bk);
 }
 
-/* BUTTON FLOAT ANIMATION */
+/* BUTTON FLOAT ANIMATION - modified from https://www.geeksforgeeks.org/css-floating-animation/ */
 @keyframes float {
 	0% {
 		transform: translateY(0);

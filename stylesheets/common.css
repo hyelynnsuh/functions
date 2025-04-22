@@ -7,7 +7,7 @@
 	--light-blue: #3a68c48a;
 	--blue: #3a68c4;
 	--pink: #f6b3c2;
-	--yellow: #c7b174;
+	--yellow: #fdc006;
 	--font-family: "Pixelify Sans", sans-serif;
 	--bolded: 900;
 	--margin: 1.5rem;
@@ -165,4 +165,22 @@ footer {
 }
 
 
+.float {
+	animation: float 1.5s ease-in-out infinite;
+}
+
+/* BUTTON FLOAT ANIMATION - modified from https://www.geeksforgeeks.org/css-floating-animation/ */
+@keyframes float {
+	0% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-10px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
 
