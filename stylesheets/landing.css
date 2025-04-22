@@ -59,6 +59,8 @@ h1 {
 	margin-bottom: var(--padding);
 }
 
+
+/* BUTTON */
 button {
 	padding: var(--padding);
 	border: solid 2px var(--wht);
@@ -72,10 +74,7 @@ button {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: var(--margin);
-
-	img {
-		width: 1rem;
-	}
+	animation: float 1.5s ease-in-out infinite;
 }
 
 button > a {
@@ -83,6 +82,23 @@ button > a {
 	color: var(--wht);
 }
 
+/* BUTTON FLOAT ANIMATION */
+@keyframes float {
+	0% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-10px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+
+
+/* HERO IMAGE */
 .hero-image {
 	margin-left: var(--margin);
 	margin-right: var(--margin);
@@ -93,6 +109,8 @@ button > a {
 	}
 }
 
+
+/* FOOTER */
 footer {
 	padding: var(--padding);
 	background-color: var(--wht);
