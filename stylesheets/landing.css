@@ -152,3 +152,35 @@ footer {
 	}
 
 }
+
+
+/* 1290px */
+@media (min-width: 1290px) {
+	/* BACKGROUND IMAGE */
+	body {
+		background-size: 90%;
+	}
+
+	/* MAIN */
+	main {
+		display: flex;
+		max-width: 65rem;
+		margin: auto;
+		margin-top: calc(var(--margin)*6);
+		margin-bottom: calc(var(--margin)*4);
+	}
+
+	.description {
+		padding-top: calc(var(--padding)*1.5);
+	}
+
+	.hero-img {
+		width: 33rem;
+		padding-left: 0;
+	}
+
+	.hero-img > img {
+		width: 100%;
+		margin-bottom: 0;
+	}
+}

@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
 						modalContent.innerHTML = `
 						<button class="close-btn" id="close-modal">\u2715</button>
 						<h3> No Meals Found.</h3>
-						<p>Try again!</p>
+						<p class="try-again">Try again!</p>
 						`
 					}
 					// MODAL APPEAR ANIMATION

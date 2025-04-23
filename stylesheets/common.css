@@ -189,3 +189,11 @@ footer {
 	}
 }
 
+
+/* 1290PX */
+@media (min-width: 1290px) {
+	.footer-info {
+		font-size: calc(var(--font-size)*1.2);
+	}
+}
+

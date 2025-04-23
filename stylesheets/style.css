@@ -439,6 +439,10 @@ select.selected {
 	pointer-events: auto;
 }
 
+.modal-content {
+	line-height: 1.5rem;
+}
+
 /* HIDE MODAL */
 .hidden {
 	display: none;
@@ -460,10 +464,13 @@ select.selected {
 	border: 2px solid var(--black);
 	text-decoration: underline;
 	margin-top: var(--padding);
+	box-shadow: 2px 2px;
 }
 
 .modal-info {
-	font-size: calc(var(--font-size)*1.3);
+	font-size: calc(var(--font-size)*1.5);
+	padding-top: calc(var(--padding)/1.8);
+	padding-bottom: calc(var(--padding)/1.8);
 }
 
 h3 {
@@ -525,7 +532,7 @@ footer {
 @media (min-width: 1290px) {
 	/* BACKGROUND IMAGE */
 	body {
-		background-size: 92%;
+		background-size: 94%;
 	}
 
 
@@ -564,6 +571,60 @@ footer {
 
 	label, select {
 		font-size: calc(var(--font-size)*1.5);
+	}
+
+	/* FORM ANIMATION */
+	@keyframes extend {
+		0% {
+			box-shadow: 6px 6px var(--yellow);
+		}
+
+		50% {
+			transform: translate(-5px, -5px);
+			box-shadow: 9px 9px var(--yellow);
+		}
+
+		100% {
+			box-shadow: 6px 6px var(--yellow);
+		}
+	}
+
+	@keyframes stretch {
+		0% {
+			box-shadow: 6px 6px var(--yellow);
+		}
+
+		70% {
+			transform: translate(-5px, -5px);
+			box-shadow: 9px 9px var(--yellow);
+		}
+
+		100% {
+			box-shadow: 6px 6px var(--yellow);
+		}
+	}
+
+	@keyframes secondStretch {
+		0% {
+			box-shadow: 6px 6px var(--yellow);
+		}
+
+		90% {
+			transform: translate(-5px, -5px);
+			box-shadow: 9px 9px var(--yellow);
+		}
+
+		110% {
+			box-shadow: 6px 6px var(--yellow);
+		}
+	}
+
+	/* FORM HOVER */
+	.form:hover {
+		transform: translate(-5px, -5px);
+		box-shadow: 9px 9px var(--yellow);
+		transition: 0.5s ease;
+		cursor: pointer;
 	}
 
 	/* GASHAPON */
@@ -648,12 +709,19 @@ footer {
 		padding-bottom: var(--padding);
 	}
 
-	.modal-subtext, .restaurant {
+	.modal-subtext, .restaurant, .try-again {
 		font-size: calc(var(--font-size)*2);
 	}
 
-	
-	/* FOOTER */ 
+	.restaurant:hover {
+		transform: translate(-5px, -5px);
+		box-shadow: 9px 9px var(--black);
+		transition: 0.5s ease;
+		cursor: pointer;
+	}
 
+	.close-btn {
+		font-size: 2.2rem;
+	}
 	
 }
