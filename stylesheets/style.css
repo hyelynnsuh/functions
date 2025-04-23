@@ -17,7 +17,7 @@ body {
 	background-color: var(--white);
 	text-transform: uppercase;
 	background-image: url("../assets/8bit3.webp");
-	background-size: 300%;
+	background-size: 310%;
 }
 
 * {
@@ -205,8 +205,68 @@ h1 {
 	padding: calc(var(--padding)/2);
 	border: solid 2px var(--black);
 	font-size: calc(var(--font-size)/1.3);
+	box-shadow: 3px 3px var(--yellow);
 }
 
+/* FORM ANIMATION */
+.cui {
+	animation: extend 1s ease-in-out;
+}
+
+@keyframes extend {
+	0% {
+		box-shadow: 3px 3px var(--yellow);
+	}
+
+	50% {
+		transform: translate(-4px, -4px);
+		box-shadow: 5px 5px var(--yellow);
+	}
+
+	100% {
+		box-shadow: 3px 3px var(--yellow);
+	}
+}
+
+.spi {
+	animation: stretch 1s ease-in-out;
+}
+
+@keyframes stretch {
+	0% {
+		box-shadow: 3px 3px var(--yellow);
+	}
+
+	70% {
+		transform: translate(-4px, -4px);
+		box-shadow: 5px 5px var(--yellow);
+	}
+
+	100% {
+		box-shadow: 3px 3px var(--yellow);
+	}
+}
+
+.typ {
+	animation: secondStretch 1s ease-in-out;
+}
+
+@keyframes secondStretch {
+	0% {
+		box-shadow: 3px 3px var(--yellow);
+	}
+
+	90% {
+		transform: translate(-4px, -4px);
+		box-shadow: 5px 5px var(--yellow);
+	}
+
+	110% {
+		box-shadow: 3px 3px var(--yellow);
+	}
+}
+
+/* LABEL */
 label {
 	color: var(--black);
 	font-weight: var(--bolded);
@@ -428,7 +488,7 @@ footer {
 /* 800PX */
 @media (min-width: 800px) {
 	#meal-form {
-		width: 30rem;
+		width: 40rem;
 		margin-left: auto;
 		margin-right: auto;
 	}

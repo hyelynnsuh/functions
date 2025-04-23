@@ -63,8 +63,8 @@ h1 {
 /* BUTTON */
 button {
 	padding: var(--padding);
-	border: solid 2px var(--bk);
-	background-color: var(--yellow);
+	border: solid 2px var(--yellow);
+	background-color: var(--wht);
 	font-weight: var(--bolded);
 	margin-top: var(--margin);
 	min-width: 20.5rem;
@@ -79,7 +79,7 @@ button {
 
 button > a {
 	/* text-decoration: underline; */
-	color: var(--bk);
+	color: var(--yellow);
 }
 
 /* BUTTON FLOAT ANIMATION - modified from https://www.geeksforgeeks.org/css-floating-animation/ */
