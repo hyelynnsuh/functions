@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const topCapsule = document.getElementById('top-capsule')
 	const bottomCapsule = document.getElementById('bottom-capsule')
 	const crank = document.getElementById('crank')
+	const background = document.getElementById('main')
 	const modal = document.getElementById('modal-result')
 	const modalContent = document.getElementById('modal-content')
 	const cuisineInput = document.getElementById('cuisine')
@@ -104,7 +105,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 			// CLOSE MODAL
 			document.addEventListener('click', (e) => {
-				if (e.target.id === 'close-modal') {
+				const clickedCloseBtn = e.target.id === 'close-modal'
+				const clickedOutside = e.target === background
+
+				if (clickedCloseBtn || clickedOutside) {
 					modal.classList.remove('show')
 					setTimeout(() => modal.classList.add('hidden'), 300)
 
