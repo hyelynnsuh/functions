@@ -528,6 +528,17 @@ footer {
 		background-size: 92%;
 	}
 
+
+	/* HEADER + FOOTER*/
+	.logo {
+		width: 2.5rem;
+	}
+
+	.mood, .footer-info {
+		font-size: calc(var(--font-size)*1.2);
+	}
+
+
 	/* MAIN FLEX BOX */
 	/* FLEX CONTAINER */
 	main {
@@ -571,8 +582,78 @@ footer {
 		bottom: 20px;
 	}
 
+	/* CAPSULE */
 	.capsule-container {
-
+		width: 11rem;
+		margin-left: 2rem;
 	}
+
+	.capsule {
+		width: 200px;
+		height: 200px;
+	}
+
+	/* ANIMATION */
+	@keyframes dropBounce {
+		0% {
+			transform: translateY(-200px);
+			opacity: 0;
+		}
+	
+		50% {
+			transform: translateY(10px) scale(1.05);
+			opacity: 1;
+		}
+	
+		100% {
+			transform: translateY(0) scale(1);
+			opacity: 1;
+		}
+	}
+
+	@keyframes topPop {
+		to {
+			transform: translateY(-80px) rotate(-20deg);
+			opacity: 1;
+		}
+	}
+	
+	@keyframes bottomPop {
+		to {
+			transform: translateY(140px) rotate(15deg);
+			opacity: 1;
+		}
+	}
+
+
+	/* MODAL */
+	.modal {
+		padding: calc(var(--padding)*2);
+		max-width: 40rem;
+	}
+
+	.modal-content {
+		line-height: 3rem;
+	}
+
+	h3 {
+		font-size: calc(var(--font-size)*2.3);
+		font-weight: 500;
+	}
+
+	.modal-info {
+		font-size: calc(var(--font-size)*4);
+		font-weight: var(--bolded);
+		padding-top: var(--padding);
+		padding-bottom: var(--padding);
+	}
+
+	.modal-subtext, .restaurant {
+		font-size: calc(var(--font-size)*2);
+	}
+
+	
+	/* FOOTER */ 
+
 	
 }

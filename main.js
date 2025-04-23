@@ -85,8 +85,8 @@ document.addEventListener('DOMContentLoaded', () => {
 						modalContent.innerHTML = `
 						<button class="close-btn" id="close-modal">\u2715</button> <h3>You Should Eat:</h3>
 						<p class="modal-info">${randomMeal.name}</p>
-						<p>cuisine: ${randomMeal.Cuisine}</p>
-						<p>price range: ${randomMeal.Price}</p>
+						<p class="modal-subtext">cuisine: ${randomMeal.Cuisine}</p>
+						<p class="modal-subtext">price range: ${randomMeal.Price}</p>
 						<div class="restaurant"><a href="${randomMeal.Link}" target="_blank">Restaurants Near You</a></p>
 						`
 					} else {
