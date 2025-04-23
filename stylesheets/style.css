@@ -399,14 +399,14 @@ select.selected {
 
 @keyframes topPop {
 	to {
-		transform: translateY(-80px) rotate(-20deg);
+		transform: translateY(-130px) rotate(-20deg);
 		opacity: 1;
 	}
 }
 
 @keyframes bottomPop {
 	to {
-		transform: translateY(80px) rotate(15deg);
+		transform: translateY(20px) rotate(15deg);
 		opacity: 1;
 	}
 }
@@ -524,6 +524,21 @@ footer {
 	.bg {
 		max-block-size: unset;
 		height: 23rem;
+	}
+
+	/* ANIMATION */
+	@keyframes topPop {
+		to {
+			transform: translateY(-120px) rotate(-20deg);
+			opacity: 1;
+		}
+	}
+	
+	@keyframes bottomPop {
+		to {
+			transform: translateY(40px) rotate(15deg);
+			opacity: 1;
+		}
 	}
 }
 
@@ -646,12 +661,12 @@ footer {
 	/* CAPSULE */
 	.capsule-container {
 		width: 11rem;
-		margin-left: 2rem;
+		margin-left: 0;
 	}
 
 	.capsule {
 		width: 200px;
-		height: 200px;
+		height: 190px;
 	}
 
 	/* ANIMATION */
@@ -674,14 +689,14 @@ footer {
 
 	@keyframes topPop {
 		to {
-			transform: translateY(-80px) rotate(-20deg);
+			transform: translateY(-170px) rotate(-20deg);
 			opacity: 1;
 		}
 	}
 	
 	@keyframes bottomPop {
 		to {
-			transform: translateY(140px) rotate(15deg);
+			transform: translateY(190px) rotate(15deg);
 			opacity: 1;
 		}
 	}
