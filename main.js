@@ -44,13 +44,23 @@ document.addEventListener('DOMContentLoaded', () => {
 				modal.classList.remove('show')
 				modal.classList.add('hidden')
 
+				// GET THE SELECTED VALUES
 				const selectedCuisine = cuisineInput.value
 				const selectedSpice = spicyInput.value
 				const selectedType = typeInput.value.toLowerCase()
 
-				const filteredMeals = data.filter(meal =>
-					meal.Cuisine.toLowerCase().includes(selectedCuisine) && meal.Spicy === selectedSpice && meal.Type.toLowerCase().includes(selectedType)
-				)
+				let filteredMeals
+
+				// IF ALL FILTERS ARE EMPTY -> SHOW FULLY RANDOM MEAL
+				if(!selectedCuisine && !selectedSpice && !selectedType) {
+					filteredMeals = data
+				} else {
+					// FILTER MEALS BASED ON SELECTED FILTERS
+					filteredMeals = data.filter(meal =>
+						meal.Cuisine.toLowerCase().includes(selectedCuisine) && meal.Spicy === selectedSpice && meal.Type.toLowerCase().includes(selectedType)
+					)
+				}
+				
 
 				// DROP FULL CAPSULE - learned from https://medium.com/@syedfahim300701/using-settimeout-in-js-fa50da74d787#:~:text=setTimeout()%20is%20a%20useful,behavior%20to%20your%20JavaScript%20applications. 
 				setTimeout(() => {

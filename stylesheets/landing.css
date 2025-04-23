@@ -63,7 +63,7 @@ h1 {
 /* BUTTON */
 button {
 	padding: var(--padding);
-	border: solid 2px var(--yellow);
+	border: solid 2px var(--black);
 	background-color: var(--wht);
 	font-weight: var(--bolded);
 	margin-top: var(--margin);
@@ -74,26 +74,27 @@ button {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: var(--margin);
-	animation: float 1.5s ease-in-out infinite;
+	animation: extend 1.5s ease-in-out infinite;
+	box-shadow: 3px 3px var(--yellow);
 }
 
 button > a {
 	/* text-decoration: underline; */
-	color: var(--yellow);
+	color: var(--black);
 }
 
-/* BUTTON FLOAT ANIMATION - modified from https://www.geeksforgeeks.org/css-floating-animation/ */
-@keyframes float {
+@keyframes extend {
 	0% {
-		transform: translateY(0);
+		box-shadow: 3px 3px var(--yellow);
 	}
 
 	50% {
-		transform: translateY(-10px);
+		transform: translate(-4px, -4px);
+		box-shadow: 5px 5px var(--yellow);
 	}
 
 	100% {
-		transform: translateY(0);
+		box-shadow: 3px 3px var(--yellow);
 	}
 }
 
