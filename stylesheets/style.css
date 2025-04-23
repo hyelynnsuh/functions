@@ -527,6 +527,8 @@ footer {
 		height: 35rem;
 		max-width: 50rem;
 		margin: auto;
+		justify-content: start;
+		align-items: center;
 	}
 
 	#meal-form {
@@ -536,16 +538,24 @@ footer {
 		gap: calc(var(--gap)*2);
 	}
 
+	.form {
+		box-shadow: 6px 6px var(--yellow);
+	}
+
 	label, select {
 		font-size: calc(var(--font-size)*1.5);
 	}
 
 	body {
-		background-size: 100%;
+		background-size: 90%;
 	}
 
 	.bg {
-		height: 30rem;
+		height: 35rem;
+	}
+
+	.gashapon-wrapper {
+		margin-top: 0;
 	}
 	
 }

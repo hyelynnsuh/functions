@@ -61,8 +61,8 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "The Jin ($$$), BBQ Olive Chicken ($)",
-    "Price": "$-$$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Price": "$$",
+    "Link": "https://newwonjo.com/"
   },
   {
     "name": "Tteokbokki",
@@ -75,7 +75,7 @@
     "Sweet": "TRUE",
     "Restaurants": "YK Tteokbokki ($), Kong Sihk Tong ($)",
     "Price": "$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.tosokchonnyc.com/"
   },
   {
     "name": "Bibimbap",
@@ -87,8 +87,8 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Woorijip ($), Atoboy ($$$$)",
-    "Price": "$-$$$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Price": "$$",
+    "Link": "https://www.seoulbapnyc.com/"
   },
   {
     "name": "Jjambbong",
@@ -101,7 +101,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Hunan Slurp ($$), Spicy Village ($)",
     "Price": "$-$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.hyodonggak.com/"
   },
   {
     "name": "Kalguksu",
@@ -113,8 +113,8 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Arirang ($), Her Name is Han ($$$)",
-    "Price": "$-$$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Price": "$-$$",
+    "Link": "https://daesungkoreannoodle.site/"
   },
   {
     "name": "KBBQ",
@@ -126,8 +126,8 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Kang Ho Dong Baekjeong ($$$), Samwon Garden ($$$$)",
-    "Price": "$$$-$$$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Price": "$$-$$$",
+    "Link": "https://jongrobbqmarket.com/"
   },
   {
     "name": "Sullungtang",
@@ -140,7 +140,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Gammeeok ($$)",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.okdongsik.net/"
   },
   {
     "name": "Bossam",
@@ -153,7 +153,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Cho Dang Gol ($$)",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.anytimenyc.com/"
   },
   {
     "name": "Naengmyun",
@@ -166,7 +166,7 @@
     "Sweet": "TRUE",
     "Restaurants": "The Kunjip ($$)",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://ollenyc.com/"
   },
   {
     "name": "Hamburger",
@@ -179,7 +179,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Shake Shack ($), J.G. Melon ($$)",
     "Price": "$-$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://burgersonb.com/"
   },
   {
     "name": "Mac n Cheese",
@@ -191,8 +191,8 @@
     "Creamy": "TRUE",
     "Sweet": "FALSE",
     "Restaurants": "S'MAC ($), Beecher's Handmade Cheese ($$)",
-    "Price": "$-$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Price": "$",
+    "Link": "https://www.eatsmac.com/?y_source=1_MTA1NjA2ODgzNS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
   },
   {
     "name": "Wings",
@@ -204,8 +204,8 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Bar Goto ($$), Dan and John's Wings ($)",
-    "Price": "$-$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Price": "$$",
+    "Link": "https://danandjohns.com/"
   },
   {
     "name": "Sandwich",
@@ -218,7 +218,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Katz's Delicatessen",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.joeyroses.com/"
   },
   {
     "name": "Dim Sum",
@@ -231,7 +231,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Gahm Mi Oak",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.daodimsum.com/"
   },
   {
     "name": "Mapo Tofu",
@@ -244,7 +244,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Nom Wah Tea Parlor",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://hupo.nyc/"
   },
   {
     "name": "Malatang",
@@ -257,7 +257,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Málà Project ($$)",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.google.com/search?q=malatang+nyc&sca_esv=e82f467cc295a493&ei=R5sIaOXTKpPsptQPv5Pm6AY&ved=0ahUKEwilk4ub1e2MAxUTtokEHb-JGW0Q4dUDCBA&uact=5&oq=malatang+nyc&gs_lp=Egxnd3Mtd2l6LXNlcnAiDG1hbGF0YW5nIG55YzIFEAAYgAQyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBBAAGB4yBhAAGAUYHjIGEAAYBRgeMgYQABgFGB4yBhAAGAUYHjIGEAAYBRgeSNsKUABY9wlwAHgBkAEAmAF4oAH9BaoBAzcuMrgBA8gBAPgBAZgCBqAChgTCAgkQLhiABBgKGA3CAgYQABgNGB7CAggQABgIGA0YHsICBxAAGIAEGA3CAgsQABiABBiGAxiKBcICCBAAGIAEGKIEmAMAkgcDNS4xoAe4NLIHAzUuMbgHhgQ&sclient=gws-wiz-serp&lqi=CgxtYWxhdGFuZyBueWNIlZfhwtOygIAIWhIQABgBIgxtYWxhdGFuZyBueWOSARBhc2lhbl9yZXN0YXVyYW50mgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJ1ZUdOSU5WUm5FQUWqAUMQASoMIghtYWxhdGFuZygAMh8QASIbAC9tb3YXbgt1BNS9QODnGP-ung1HUcgxTQ0ZMhAQAiIMbWFsYXRhbmcgbnlj4AEA-gEECAAQOg#rlimm=18437092920816425174"
   },
   {
     "name": "Hot Pot",
@@ -270,7 +270,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Haidilao ($$$), 99 Favor Taste ($$)",
     "Price": "$$-$$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.er-hotpot.com/"
   },
   {
     "name": "Cumin Lamb Noodles",
@@ -283,7 +283,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Xi'an Famous Foods ($)",
     "Price": "$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.xianfoods.com/"
   },
   {
     "name": "Pasta",
@@ -295,8 +295,8 @@
     "Creamy": "TRUE",
     "Sweet": "FALSE",
     "Restaurants": "L’Artusi ($$$$), Rubirosa ($$)",
-    "Price": "$$-$$$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Price": "$$",
+    "Link": "https://houseofpastanyc.com/"
   },
   {
     "name": "Pizza",
@@ -308,8 +308,8 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Lucali ($$$), Prince Street Pizza ($)",
-    "Price": "$-$$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Price": "$",
+    "Link": "https://www.fooddiscoveryapp.com/new-york-city/joes-pizza"
   },
   {
     "name": "Udon",
@@ -322,7 +322,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Raku ($$)",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.rakunyc.com/"
   },
   {
     "name": "Karaage",
@@ -334,8 +334,8 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Torishin ($$$)",
-    "Price": "$$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Price": "$$",
+    "Link": "https://www.rakunyc.com/"
   },
   {
     "name": "Sushi",
@@ -347,8 +347,8 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Sushi Nakazawa ($$$$), SUGARFISH ($$$)",
-    "Price": "$$$-$$$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Price": "$$-$$$",
+    "Link": "https://www.sushisaintny.com/"
   },
   {
     "name": "Soba",
@@ -361,7 +361,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Cocoron ($$)",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://sobaya.square.site/"
   },
   {
     "name": "Katsu",
@@ -374,7 +374,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Katsu-Hama ($$)",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.katsusushiny.com/"
   },
   {
     "name": "Omurice",
@@ -387,7 +387,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Hi-Collar ($$)",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.newyorkkyuramen.com/"
   },
   {
     "name": "Curry",
@@ -400,7 +400,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Go! Go! Curry! ($)",
     "Price": "$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "http://www.evilkatsu.com/"
   },
   {
     "name": "Kimchi Carbonara",
@@ -413,7 +413,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Mokbar ($$)",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.hernameishan.com/"
   },
   {
     "name": "Shabu Shabu",
@@ -426,7 +426,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Shabu-Tatsu ($$)",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://mikiyashabu.com/"
   },
   {
     "name": "Burrito",
@@ -439,7 +439,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Dos Toros Taqueria ($), Chipotle Mexican Grill ($)",
     "Price": "$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://sondelnorth.com/"
   },
   {
     "name": "Tacos",
@@ -452,7 +452,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Los Tacos No. 1 ($), Tacombi ($$)",
     "Price": "$-$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://taqueriaramirezbk.com/"
   },
   {
     "name": "Butter Chicken",
@@ -465,7 +465,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Dhaba ($$)",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://spicesymphony.com/"
   },
   {
     "name": "Chicken Tikka Masala",
@@ -478,7 +478,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Bengal Tiger Indian Food ($$)",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.bungalowny.com/"
   },
   {
     "name": "Naan",
@@ -491,7 +491,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Tamarind Tribeca ($$$)",
     "Price": "$$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.dhabanyc.com/"
   },
   {
     "name": "Bagels",
@@ -503,8 +503,8 @@
     "Creamy": "TRUE",
     "Sweet": "FALSE",
     "Restaurants": "Ess-a-Bagel ($), Russ & Daughters ($$)",
-    "Price": "$-$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Price": "$",
+    "Link": "https://broadnosh.com/"
   },
   {
     "name": "Fries",
@@ -517,7 +517,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Pommes Frites ($)",
     "Price": "$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://pommesfritesnyc.com/?y_source=1_MTAxODI5Mjk3Mi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
   },
   {
     "name": "Paella",
@@ -529,8 +529,8 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Socarrat Paella Bar ($$)",
-    "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Price": "$$-$$$",
+    "Link": "https://socarratnyc.com/midtown-east/"
   },
   {
     "name": "Tapas",
@@ -542,8 +542,8 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Boqueria ($$), Casa Mono ($$$)",
-    "Price": "$$-$$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Price": "$$",
+    "Link": "https://ezpaella.com/"
   },
   {
     "name": "Ceviche",
@@ -555,8 +555,8 @@
     "Creamy": "FALSE",
     "Sweet": "FALSE",
     "Restaurants": "Mission Ceviche",
-    "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Price": "$",
+    "Link": "https://doncevicheny.com/"
   },
   {
     "name": "Empanadas",
@@ -569,7 +569,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Nuchas ($), La Nueva Bakery ($)",
     "Price": "$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.empanadamama.com/hells-kitchen"
   },
   {
     "name": "Chicken Sandwich",
@@ -582,7 +582,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Fuku",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://restaurants.daveshotchicken.com/ny/new-york/spicy-chicken-sandwich-on-3rd-ave/?utm_source=google&utm_medium=wiideman&utm_campaign=pageleap"
   },
   {
     "name": "Pad See Ew",
@@ -594,8 +594,8 @@
     "Creamy": "FALSE",
     "Sweet": "TRUE",
     "Restaurants": "Pure Thai Cookhouse ($$), LoveMama ($)",
-    "Price": "$-$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Price": "$$",
+    "Link": "https://soothrnyc.com/"
   },
   {
     "name": "Pho",
@@ -608,7 +608,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Madame Vo ($$), Pho Bang ($)",
     "Price": "$-$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.madamevo.com/"
   },
   {
     "name": "Bahn Mi",
@@ -621,7 +621,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Saigon Shack ($), Nicky’s Vietnamese Sandwiches ($)",
     "Price": "$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.saigonvietnamesesandwichdeli.com/"
   },
   {
     "name": "Birria Tacos",
@@ -634,7 +634,7 @@
     "Sweet": "FALSE",
     "Restaurants": "Birria-Landia ($), Los Tacos No. 1 ($)",
     "Price": "$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://birrialandia.com/"
   },
   {
     "name": "Dan Dan Noodles",
@@ -647,7 +647,7 @@
     "Sweet": "TRUE",
     "Restaurants": "Han Dynasty",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://order.mealkeyway.com/customer/release/index?mid=426a362f32434c344d4e58773972555245556c6146513d3d#/main"
   },
   {
     "name": "Hand Rolls",
@@ -660,7 +660,7 @@
     "Sweet": "FALSE",
     "Restaurants": "KazuNori",
     "Price": "$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.naminori.us/"
   },
   {
     "name": "Omakase",
@@ -673,6 +673,6 @@
     "Sweet": "FALSE",
     "Restaurants": "Sushi Nakazawa ($$$$), SUGARFISH ($$$)",
     "Price": "$$$-$$$$",
-    "Link": "https://www.hojokbannyc.com/"
+    "Link": "https://www.domodomorestaurant.com/domodomonyc"
   }
 ]
