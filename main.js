@@ -77,6 +77,11 @@ document.addEventListener('DOMContentLoaded', () => {
 				if (e.target.id === 'close-modal') {
 					modal.classList.remove('show')
 					setTimeout(() => modal.classList.add('hidden'), 300)
+
+					topCapsule.classList.remove('open')
+					bottomCapsule.classList.remove('open')
+					topCapsule.classList.add('hidden')
+					bottomCapsule.classList.add('hidden')
 				}
 			})
 		})
