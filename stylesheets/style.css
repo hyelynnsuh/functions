@@ -288,9 +288,15 @@ button {
 	padding: calc(var(--padding)/1.5);
 }
 
-/* DISABLED - modified from https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled */
-option:disabled {
-	background-color: var(--shadow);
+/* DISABLED - modified from https://markus.oberlehner.net/blog/faking-a-placeholder-in-a-html-select-form-field?utm_source=chatgpt.com */
+select.placeholder {
+	color: #888;
+	font-style: italic;
+}
+
+select.selected {
+	background-color: var(--yellow);
+	color: var(--black);
 }
 
 
