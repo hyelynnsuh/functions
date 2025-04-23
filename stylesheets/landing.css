@@ -114,8 +114,8 @@ button > a {
 /* FOOTER */
 footer {
 	padding: var(--padding);
-	background-color: var(--wht);
-	border: var(--bk) 2px solid;
+	/* background-color: var(--wht);
+	border: var(--bk) 2px solid; */
 	font-weight: var(--bolded);
 	margin-top: var(--margin);
 }

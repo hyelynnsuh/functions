@@ -297,6 +297,7 @@ select.placeholder {
 select.selected {
 	background-color: var(--yellow);
 	color: var(--black);
+	text-align: center;
 }
 
 
@@ -522,6 +523,13 @@ footer {
 
 /* 1290px */
 @media (min-width: 1290px) {
+	/* BACKGROUND IMAGE */
+	body {
+		background-size: 92%;
+	}
+
+	/* MAIN FLEX BOX */
+	/* FLEX CONTAINER */
 	main {
 		display: flex;
 		height: 35rem;
@@ -531,6 +539,7 @@ footer {
 		align-items: center;
 	}
 
+	/* FORM */
 	#meal-form {
 		flex-direction: column;
 		width: fit-content;
@@ -546,16 +555,24 @@ footer {
 		font-size: calc(var(--font-size)*1.5);
 	}
 
-	body {
-		background-size: 90%;
-	}
-
+	/* GASHAPON */
 	.bg {
 		height: 35rem;
 	}
 
 	.gashapon-wrapper {
 		margin-top: 0;
+	}
+
+	/* COIN */
+	.crank-button {
+		width: 100px;
+		height: 100px;
+		bottom: 20px;
+	}
+
+	.capsule-container {
+
 	}
 	
 }
