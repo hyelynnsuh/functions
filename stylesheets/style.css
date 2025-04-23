@@ -288,6 +288,12 @@ button {
 	padding: calc(var(--padding)/1.5);
 }
 
+/* DISABLED - modified from https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled */
+option:disabled {
+	background-color: var(--shadow);
+}
+
+
 /* GASHAPON */
 .gashapon-wrapper {
 	position: relative;
