@@ -56,12 +56,16 @@ document.addEventListener('DOMContentLoaded', () => {
 				if(!selectedCuisine && !selectedSpice && !selectedType) {
 					filteredMeals = data
 				} else {
-					// FILTER MEALS BASED ON SELECTED FILTERS
-					filteredMeals = data.filter(meal =>
-						meal.Cuisine.toLowerCase().includes(selectedCuisine) && meal.Spicy === selectedSpice && meal.Type.toLowerCase().includes(selectedType)
-					)
+					// FILTER BASED ON WHATEVER IS SELECTED - modified from https://stackoverflow.com/questions/51863089/materializecss-datepicker-setdate-does-not-update-the-view
+					filteredMeals = data.filter(meal => {
+						const cuisineMatch = selectedCuisine ? meal.Cuisine.toLowerCase().includes(selectedCuisine) : true
+						const spiceMatch = selectedSpice ? meal.Spicy === selectedSpice : true
+						const typeMatch = selectedType ? meal.Type.toLowerCase().includes(selectedType) : true
+						return cuisineMatch && spiceMatch && typeMatch
+					})
 				}
-				
+					
+
 
 				// DROP FULL CAPSULE - learned from https://medium.com/@syedfahim300701/using-settimeout-in-js-fa50da74d787#:~:text=setTimeout()%20is%20a%20useful,behavior%20to%20your%20JavaScript%20applications. 
 				setTimeout(() => {
